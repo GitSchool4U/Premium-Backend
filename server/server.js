@@ -5,15 +5,24 @@
 import express from 'express'
 
 const app = express()
+// middleware
+app.use(express.json())
 
 app.get('/', (req, res) => {
-    res.send("get route")
+    res.send("ye hai hamara data")
 })
 app.get('/about', (req, res) => {
     res.send("about route")
 })
 app.get('/login', (req, res) => {
     res.send("you are logged in")
+})
+
+app.post("/create-user", (req, res)=>{
+    console.log(req.body)
+    res.send({
+        "message":`Hey ${req.body.name}, your data saved successfully`
+    })
 })
 
 app.listen(5000, ()=>{
