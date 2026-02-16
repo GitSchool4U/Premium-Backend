@@ -28,12 +28,15 @@ Express (framework)
 # difference between node and express
 
 | Node.js (http) | Express.js       |
-| -------------- | ---------------- | ------------------------------------------------------------ |
+| -------------- | ---------------- |
 | Manual routing | Built-in routing |
 | Headers khud   | Auto handled     |
 | More code      | Less code        |
-| Hard to scale  | Easy to scale    | Low-level = machine ke zyada paas, control zyada, kaam zyada |
-| Low-level      | High-level       | High-level = human ke zyada paas, control kam, ease zyada    |
+| Hard to scale  | Easy to scale    | 
+| Low-level      | High-level       |   
+
+Low-level = machine ke zyada paas, control zyada, kaam zyada
+High-level = human ke zyada paas, control kam, ease zyada 
 
 Node.js se server possible hai, lekin Express usko human-friendly bana deta hai
 
