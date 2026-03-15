@@ -1,16 +1,16 @@
 # Level 1 — Database Setup
 
-MongoDB shell open karo aur available databases dekho.
-Ek naya database banao: shopApp
-Us database me switch karo.
-Check karo ki database create hua ya nahi.
-Ek collection banao: users
+- MongoDB shell open karo aur available databases dekho.
+- Ek naya database banao: shopApp
+- Us database me switch karo.
+- Check karo ki database create hua ya nahi.
+- Ek collection banao: users
 
 # Level 2 — User Data (Website Signup System)
 
 Imagine karo users website par signup kar rahe hain.
 
-Ek user insert karo:
+- Ek user insert karo:
     name: Rahul
     email: rahul@gmail.com
     city: Bhagalpur
