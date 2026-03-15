@@ -1,0 +1,1 @@
+// cursor is nothing but a pointer or iterator
