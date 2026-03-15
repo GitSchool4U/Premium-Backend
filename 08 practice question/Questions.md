@@ -11,30 +11,30 @@
 Imagine karo users website par signup kar rahe hain.
 
 - Ek user insert karo:
-    name: Rahul
-    email: rahul@gmail.com
-    city: Bhagalpur
-    age: 22
-Ek aur user add karo.
-Ek saath 3 users add karo.
-Sare users show karo.
-Sirf un users ko show karo jo Bhagalpur se hain.
+    - name: Rahul
+    - email: rahul@gmail.com
+    - city: Bhagalpur
+    - age: 22
+- Ek aur user add karo.
+- Ek saath 3 users add karo.
+- Sare users show karo.
+- Sirf un users ko show karo jo Bhagalpur se hain.
 
 # Level 3 — Product System (Ecommerce)
 
-Ab ek ecommerce website ka product system banao.
-Ek collection create karo: products
-Ye products insert karo:
-    iPhone
-    Laptop
-    Headphones
-    Shoes
+- Ab ek ecommerce website ka product system banao.
+- Ek collection create karo: products
+- Ye products insert karo:
+    - iPhone
+    - Laptop
+    - Headphones
+    - Shoes
 
     Example fields:
-        name
-        price
-        category
-        stock
+        - name
+        - price
+        - category
+        - stock
 Sare products show karo.
 Sirf electronics category ke products show karo.
 Count karo kitne products database me hain.
