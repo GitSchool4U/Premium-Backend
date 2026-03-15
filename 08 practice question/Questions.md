@@ -35,46 +35,46 @@ Imagine karo users website par signup kar rahe hain.
         - price
         - category
         - stock
-Sare products show karo.
-Sirf electronics category ke products show karo.
-Count karo kitne products database me hain.
+- Sare products show karo.
+- Sirf electronics category ke products show karo.
+- Count karo kitne products database me hain.
 
 # Level 4 — Update Real World Data
 
-Real world me price ya user info update hota rehta hai.
-Ek user ka city change karo Bhagalpur → Mumbai
-Ek product ka price update karo.
-Sabhi products ka stock update karo.
-Ek user ka email update karo.
+- Real world me price ya user info update hota rehta hai.
+- Ek user ka city change karo Bhagalpur → Mumbai
+- Ek product ka price update karo.
+- Sabhi products ka stock update karo.
+- Ek user ka email update karo.
 
 # Level 5 — Delete Operations
 
-Ek user delete karo jiska naam Amit hai.
-Sabhi users delete karo jinka age less than 18 hai.
-Ek product delete karo.
+- Ek user delete karo jiska naam Amit hai.
+- Sabhi users delete karo jinka age less than 18 hai.
+- Ek product delete karo.
 
 # Level 6 — Real Interview Type Questions
 
-Ye bahut important hain.
-Find users jinka age greater than 20 hai.
-Find product jiska price less than 5000 hai.
-Find user jiska name Rahul hai.
-Count users jo Mumbai se hain.
-Check karo database me kaun kaun collections hain.
+- Ye bahut important hain.
+- Find users jinka age greater than 20 hai.
+- Find product jiska price less than 5000 hai.
+- Find user jiska name Rahul hai.
+- Count users jo Mumbai se hain.
+- Check karo database me kaun kaun collections hain.
 
 # Challenge (Real Web App Simulation)
 
-Create:
-    database: instagramClone
-    collections:
-        users
-        posts
-Practice:
-    User signup
-    User post upload
-    Update post caption
-    Delete post
-    Find all posts of a user
+- Create:
+    - database: instagramClone
+    - collections:
+        - users
+        - posts
+- Practice:
+    - User signup
+    - User post upload
+    - Update post caption
+    - Delete post
+    - Find all posts of a user
 
 
 
