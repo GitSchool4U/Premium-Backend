@@ -103,15 +103,15 @@ Imagine karo users website par signup kar rahe hain.
         city: "Bhagalpur",
         age: 22
     })
-Insert another user
-    db.users.insertOne({
+- Insert another user
+    - db.users.insertOne({
         name: "Amit",
         email: "amit@gmail.com",
         city: "Patna",
         age: 19
     })
-Insert many users
-    db.users.insertMany([
+- Insert many users
+    - db.users.insertMany([
         {
             name: "Neha",
             email: "neha@gmail.com",
@@ -131,18 +131,18 @@ Insert many users
             age: 23
         }
     ])
-Show all users
-    db.users.find()
-Find users from Bhagalpur
-    db.users.find({ city: "Bhagalpur" })
+- Show all users
+    - db.users.find()
+- Find users from Bhagalpur
+    - db.users.find({ city: "Bhagalpur" })
 
 
 # 3.Ecommerce Product System
 
-Create products collection
-    db.createCollection("products")
-Insert products
-    db.products.insertMany([
+- Create products collection
+    - db.createCollection("products")
+- Insert products
+    - db.products.insertMany([
         {
             name: "iPhone",
             price: 80000,
@@ -168,83 +168,83 @@ Insert products
             stock: 15
         }
     ])
-Show all products
-    db.products.find()
-Find electronics products
-    db.products.find({ category: "electronics" })
-Count products
-    db.products.countDocuments()
+- Show all products
+    - db.products.find()
+- Find electronics products
+    - db.products.find({ category: "electronics" })
+- Count products
+    - db.products.countDocuments()
 
 # 4.Update Data (Real World Changes)
 
-Update user city
-    db.users.updateOne(
+- Update user city
+    - db.users.updateOne(
         { name: "Rahul" },
         { $set: { city: "Mumbai" } }
     )
-Update product price
-    db.products.updateOne(
+- Update product price
+    - db.products.updateOne(
         { name: "Laptop" },
         { $set: { price: 65000 } }
     )
-Update all products stock
-    db.products.updateMany(
+- Update all products stock
+    - db.products.updateMany(
         {},
         { $set: { stock: 25 } }
     )
-Update user email
-    db.users.updateOne(
+- Update user email
+    - db.users.updateOne(
         { name: "Neha" },
         { $set: { email: "neha123@gmail.com" } }
     )
 
 # 5.Delete Operations
 
-Delete one user
-    db.users.deleteOne({ name: "Amit" })
-Delete users age less than 18
-    db.users.deleteMany({ age: { $lt: 18 } })
-Delete product
-    db.products.deleteOne({ name: "Shoes" })
+- Delete one user
+    - db.users.deleteOne({ name: "Amit" })
+- Delete users age less than 18
+    - db.users.deleteMany({ age: { $lt: 18 } })
+- Delete product
+    - db.products.deleteOne({ name: "Shoes" })
 
 # 6.Interview Type Queries
 
-Users age greater than 20
-    db.users.find({ age: { $gt: 20 } })
-Products price less than 5000
-    db.products.find({ price: { $lt: 5000 } })
-Find user Rahul
-    db.users.find({ name: "Rahul" })
-Count Mumbai users
-    db.users.countDocuments({ city: "Mumbai" })
-Show collections
-    show collections
+- Users age greater than 20
+    - db.users.find({ age: { $gt: 20 } })
+- Products price less than 5000
+    - db.products.find({ price: { $lt: 5000 } })
+- Find user Rahul
+    - db.users.find({ name: "Rahul" })
+- Count Mumbai users
+    - db.users.countDocuments({ city: "Mumbai" })
+- Show collections
+    - show collections
 
 # Mini Project (Instagram Clone Practice)
 
-Create DB
-use instagramClone
-    Create collections
-    db.createCollection("users")
-    db.createCollection("posts")
-Insert user
-    db.users.insertOne({
+- Create DB
+- use instagramClone
+    - Create collections
+    - db.createCollection("users")
+    - db.createCollection("posts")
+- Insert user
+    - db.users.insertOne({
         username: "manas",
         followers: 120,
         city: "Bhagalpur"
     })
-Insert post
-    db.posts.insertOne({
+- Insert post
+    - db.posts.insertOne({
         username: "manas",
         caption: "Gym time",
         likes: 10
     })
-Update caption
-    db.posts.updateOne(
+- Update caption
+    - db.posts.updateOne(
         { username: "manas" },
         { $set: { caption: "Gym motivation" } }
     )
-Find posts
-    db.posts.find()
-Delete post
-    db.posts.deleteOne({ username: "manas" })
+- Find posts
+    - db.posts.find()
+- Delete post
+    - db.posts.deleteOne({ username: "manas" })
