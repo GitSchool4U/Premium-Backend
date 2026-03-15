@@ -30,7 +30,7 @@ Imagine karo users website par signup kar rahe hain.
     - Headphones
     - Shoes
 
-    Example fields:
+    - Example fields:
         - name
         - price
         - category
