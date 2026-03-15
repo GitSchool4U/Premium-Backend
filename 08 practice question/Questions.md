@@ -85,19 +85,19 @@ Imagine karo users website par signup kar rahe hain.
 
 # 1.Database Setup
 
-Show databases
-    show dbs
-Create / switch database
-    use shopApp
-Check collections
-    show collections
-Create users collection
-    db.createCollection("users")
+- Show databases
+    - show dbs
+- Create / switch database
+    - use shopApp
+- Check collections
+    - show collections
+- Create users collection
+    - db.createCollection("users")
 
 # 2.User System (Signup Example)
 
-Insert one user
-    db.users.insertOne({
+- Insert one user
+    - db.users.insertOne({
         name: "Rahul",
         email: "rahul@gmail.com",
         city: "Bhagalpur",
