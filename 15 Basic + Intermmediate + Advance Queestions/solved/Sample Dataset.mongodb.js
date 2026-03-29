@@ -270,7 +270,7 @@ db.products.insertMany([
 ])
 
 
-// # users3 collection
+// # users2 collection
 
 db.users.insertMany([
     {
