@@ -1,1 +1,1 @@
-Setup For Mongodb - mongo shell, compass and mongodb server
+Go With Notes
